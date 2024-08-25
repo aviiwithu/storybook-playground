@@ -1,0 +1,86 @@
+{/* Colors.mdx */}
+
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+import colors from 'tailwindcss/colors';
+import './rootColors.css'
+
+<Meta title="Theme/Colors" />
+<ColorPalette>
+{/* {Object.entries(colors)
+		.filter(([, value]) => typeof value !== 'string')
+		.map(([name, value]) => (
+			<ColorItem key={name} title={name} colors={value} />
+		))} */}
+  <ColorItem
+    title="--color-primary-"
+    subtitle="Primary"
+    colors={{
+  900: '#C62828',
+  800: '#D32F2F',
+  700: '#E53935',
+  600: '#F44336',
+  500: '#F66F6F',
+  400: '#EF9A9A',
+  300: '#FFABAB',
+  200: '#FFCDD2',
+  100: '#FFEBEE',
+}}
+  />
+  <ColorItem 
+    title="theme.color.primary" 
+    subtitle="Coral" 
+    colors={{
+  900: '#0D47A1',
+  800: '#1565C0',
+  700: '#1976D2',
+  600: '#1E88E5',
+  500: '#2196F3',
+  400: '#42A5F5',
+  300: '#64B5F6',
+  200: '#90CAF9',
+  100: '#BBDEFB',
+}} 
+  />
+  <ColorItem 
+    title="theme.color.secondary" 
+    subtitle="Ocean" 
+    colors={{
+  900: '#0D0D0D',
+  800: '#1A1A1A',
+  700: '#262626',
+  600: '#333333',
+  500: '#404040',
+  400: '#666666',
+  300: '#808080',
+  200: '#B3B3B3',
+  100: '#E6E6E6',
+}} 
+  />
+  <ColorItem
+    title="theme.color.positive"
+    subtitle="Green"
+    colors={{
+  900: '#0B3D0B',
+  800: '#146314',
+  700: '#1E8C1E',
+  600: '#28A428',
+  500: '#32CD32',
+  400: '#4DE44D',
+  300: '#85F085',
+  200: '#B3F9B3',
+  100: '#E6FFE6',
+}}
+  />
+  <ColorItem
+    title="gradient"
+    subtitle="Grayscale"
+    colors={{
+      Gradient: 'linear-gradient(to right,white,black)',
+    }}
+  />
+  <ColorItem
+    title="gradient"
+    subtitle="Grayscale"
+    colors={['linear-gradient(65deg,white,black)']}
+  />
+</ColorPalette>

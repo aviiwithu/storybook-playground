@@ -1,0 +1,25 @@
+:root{
+    --color-border-separator-dark:var(--color-primitive-blue2);
+    --color-blue-background-1:var(--color-primitive-blue4);
+    --color-blue-background-2:var(--color-primitive-blue5);
+    --color-body-primary:var(--color-primitive-body1);
+    --color-body2:var(--color-primitive-body_2);
+    --color-body-secondary:var(--color-primitive-body2);
+    --color-placeholder:var(--color-primitive-body3);
+    --color-title:var(--color-primitive-blue-dark);
+    --color-success:var(--color-primitive-green1);
+    --color-success-light:var(--color-primitive-green2);
+    --color-warning:var(--color-primitive-other-orange1);
+    --color-warning-light:var(--color-primitive-other-orange2);
+    --color-error:var(--color-primitive-other-red1);
+    --color-error-light:var(--color-primitive-other-red2);
+    --color-notification:var(--color-primitive-other-blue1);
+    --color-notification-light:var(--color-primitive-other-blue2);
+    --color-disable-background:var(--color-primitive-body5);
+    --color-disable-border-separator:var(--color-primitive-body4);
+    --color-transparent:var(--color-primitive-transparent);
+    
+}
+.rootColor{
+    background-color: blue;
+}
